@@ -1,0 +1,5 @@
+Insert into books(name,issue_year, auther,genre_id)
+values ("Одиссея капитана Блада", '1923','Р.Сабатини','1');
+
+Insert into genres(id, genre)
+values ('3','поэзия');
