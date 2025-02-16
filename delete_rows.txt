@@ -1,0 +1,13 @@
+--1.добавляем новый жанр:
+
+Insert into genres(id, genre)
+values (4,'сказка');
+--Создан новый жанр -сказка
+--2.добавляем в books книгу нового жанра:
+Insert into books(name,issue_year,auther,genre_id)
+values ('Колобок', 1822,'не известен',4);
+--Создана новая книга с жанром 'сказка'
+--3.удаляем жанр 'cказка' в таблице genres:
+
+delete from genres
+where id=4;
